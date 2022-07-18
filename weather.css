@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;;
+    background-image: url("./wallpaper.jpg");
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container {
+    background-color: rgba(0,0,0,0.8);
+    width: 380px;
+    height: 520px;
+    -webkit-box-shadow: 1px 5px 28px 6px rgba(0,0,0,0.68); 
+    box-shadow: 1px 5px 28px 6px rgba(0,0,0,0.68);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+.header input {
+    margin-top: -20px;
+    width: 100%;
+    width: 200px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 10px 2px;
+    border-bottom: solid #DB7210;
+    font-size: 15px;
+    background-color: lightgrey;
+}
+
+.header input:focus {
+    background-color: white;
+}
+
+input[type=text] {
+    padding-left: 50px;
+}
+
+.header i {
+    position: absolute;
+    color: grey;
+}
+
+.icon i {
+    margin-left: -190px;
+    margin-top: -18px;
+}
+
+.output {
+    text-align: center;
+}
+
+.place .city{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+.temp .temperature {
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 40px;
+    text-shadow: 3px 3px #DB7210
+}
+
+table {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+th, td {
+    padding: 25px;
+}
+
+.feel {
+    margin-left: -110px;
+    margin-top: -20px;
+}
+
+.humid {
+    margin-right: -145px;
+    margin-top: -25px;
+}
+
+#invalid {
+    position: absolute;
+    top: 275px;
+    font-size: .9rem;
+    font-style: italic;
+    color: red;
+}
